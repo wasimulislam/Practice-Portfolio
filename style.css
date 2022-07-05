@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -28,14 +29,22 @@ section {
 .button {
     text-decoration: none;
     padding: 10px 40px;
-    background-image: linear-gradient(to right, rgb(244, 105, 5), rgb(222, 118, 32));
+    background-image: linear-gradient(to right, rgb(245, 125, 55), rgb(222, 149, 89));
     border-radius: 5px;
     color: white;
     font-weight: 600;
+
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
+}
+
+.Dream-Bigger {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 
 }
