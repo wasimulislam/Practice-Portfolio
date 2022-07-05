@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: darkorange
 }
 
-section {
+.flexible {
     display: flex;
     margin-bottom: 150px;
 }
@@ -22,18 +26,41 @@ section {
     padding-right: 6%;
 }
 
+.half {
+    width: 45%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
+    box-shadow: 25px 25px 60px gray;
+    border-radius: 10px;
+
+}
+
+#left {
+    border-left: 7px solid orangered;
+}
+
+#right {
+    border-left: 7px solid rgba(43, 11, 172, 0.512);
+}
+
 .half-width img {
     width: 90%
 }
 
 .button {
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 10px 30px;
     background-image: linear-gradient(to right, rgb(245, 125, 55), rgb(222, 149, 89));
-    border-radius: 5px;
+    border-radius: 20px;
     color: white;
     font-weight: 600;
 
+}
+
+.padd {
+    padding-left: 5%;
 }
 
 .top-banner {
@@ -47,4 +74,14 @@ section {
     background-repeat: no-repeat;
     background-position: right bottom;
 
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+footer p {
+    text-align: center;
 }
